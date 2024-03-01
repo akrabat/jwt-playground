@@ -1,0 +1,10 @@
+{
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "require": {
+        "php": "^8.2",
+        "lcobucci/jwt": "^5.2"
+    }
+}
