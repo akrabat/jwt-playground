@@ -35,6 +35,7 @@ $configuration = Configuration::forAsymmetricSigner(
 $builder = $configuration->builder()
     ->withHeader('x5u', $chainUrl)
     ->identifiedBy($keyId)
+    ->relatedTo('https://app.example.com')
     ->issuedBy('https://app.example.com')
     ->issuedAt($now)
     ->expiresAt($now->modify('+6 hour'))
